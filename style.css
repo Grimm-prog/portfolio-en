@@ -229,9 +229,7 @@ a:hover {
     width: 100%;
     position: relative;
     height: 100vh;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4) 31%), url('video/video-bg.mp4') no-repeat center center/cover;
-    background-size: cover;
-    overflow: hidden;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4) 31%), url('img/bg-image.png') no-repeat center center/cover;
 }
 
 #video-bg{
@@ -342,14 +340,16 @@ a:hover {
 
 .contacts-about,
 .contacts-form {
-    width: 40%;
+    width: 100%;
     flex-grow: 0;
     flex-shrink: 1;
+    padding-bottom: 110px;
 }
 
 @media screen and (max-width: 768px) {
     .contacts-content {
         flex-direction: column;
+        text-align: center;
     }
     .contacts-about,
 .contacts-form {
