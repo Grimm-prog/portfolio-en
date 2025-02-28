@@ -343,7 +343,7 @@ a:hover {
     width: 100%;
     flex-grow: 0;
     flex-shrink: 1;
-    padding-bottom: 110px;
+    padding-bottom: 40px;
 }
 
 @media screen and (max-width: 768px) {
@@ -388,4 +388,45 @@ a:hover {
     right: 30px;
     cursor: pointer;
     display: none;
+}
+
+.fab.fa-linkedin,
+.fab.fa-github {
+    font-size: 36px; /* Dimensione dell'icona */
+    color: #4E7E65;
+    transition: color 0.3s ease;
+}
+
+.fab.fa-linkedin:hover,
+.fab.fa-github:hover {
+    color: #de6b48;  /* Colore al passaggio del mouse */
+}
+
+.socials-menu{
+    padding-bottom: 110px;
+}
+
+.socials-menu ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.socials-menu ul li {
+    margin-right: 24px;
+}
+
+.socials-menu ul li:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .socials-menu{
+        text-align: center;
+    }
+    
+    .socials-menu ul {
+        justify-content: center;
+    }
+    
 }
