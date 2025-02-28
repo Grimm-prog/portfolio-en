@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section>
+        <header class="header">
+            <div class="container header-container">
+                <div class="logo">
+                    SL
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="#works">Works</a>
+                        </li>
+                        <li>
+                            <a href="#contacts">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="hero">
+            <div class="container hero-content">
+                <h1>Hi, I'm <br>Salvatore Luongo</h1>
+                <h3><span id="typewriter"></span><span id="cursor">|</span></h3>
+                <a class="hero-cta" href="#works">Discover My Projects</a>
+            </div>
+            <video autoplay loop muted id="video-bg">
+                <source src="video/video-bg.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <section class="works-menu">
+        <div class="container">
+            <ul>
+                <li>
+                    <a class="button" href="#scf">SCF</a>
+                </li>
+                <li>
+                    <a class="button" href="#gamein">Game in</a>
+                </li>
+        </div>
+    </section>
+
+    <section class="works">
+        <a class="anchors" id="works"></a>
+        <div class="container">
+
+            <div class="works-item">
+                <a class="anchors" id="scf"></a>
+                <div class="works-item-tags">
+                    Front-end \ 2024
+                </div>
+                <h2>SCF</h2>
+
+                <div class="work-info">
+                    <div class="work-info-label">About</div>
+                    <div class="work-info-content">
+                        <p>
+                            Interactive online game inspired by the classic "Rock, Paper, Scissors." <br>
+                            Challenge the computer in a quick and simple game. <br>
+                            Responsive design optimized for various devices. <br>
+                            Play and instantly see the results with visual feedback.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="work-info">
+                    <div class="work-info-label">Technologies</div>
+                    <div class="work-info-content">
+                        <p>
+                            Git for code versioning. <br>
+                           <span class="green">HTML, CSS, JavaScript</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="images">
+                <img class="image-right" src="img/homeMockup1.png" alt="Game in project homepage">
+                <img class="image-left" src="img/pageMockup.png" alt="Game in single game interface">
+            </div>
+
+            <div class="works-item">
+                <a class="anchors" id="gamein"></a>
+                <div class="works-item-tags">
+                    Full-stack \ 2024
+                </div>
+                <h2>Game in</h2>
+
+                <div class="work-info">
+                    <div class="work-info-label">About</div>
+                    <div class="work-info-content">
+                        <p>
+                            Website for video game enthusiasts. <br>
+                            Ability to save favorite titles in a personal list. <br>
+                            Sign-in and login functionality to review games. <br>
+                            Dedicated pages for individual games with detailed descriptions. <br>
+                            Display of user statistics and reviews. <br>
+                            Dynamic search with filters for year, genre, and developer.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="work-info">
+                    <div class="work-info-label">Technologies</div>
+                    <div class="work-info-content">
+                        <p>
+                            Git for code versioning. <br>
+                            Maven for dependency management. <br>
+                            Bootstrap for a responsive interface. <br>
+                            <span class="green">HTML, CSS, JavaScript, JSP, Java, MySQL</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="images">
+                <img class="image-right" src="img/laptopSCF.png" alt="Game in project homepage">
+                <img class="image-left" src="img/SCF.png" alt="Game in single game interface">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contacts">
+        <a class="anchors" id="contacts"></a>
+        <div class="container contacts-content">
+            <div class="contacts-about">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus commodi saepe, eaque minima
+                    repudiandae quam debitis eius exercitationem corporis magni.</p>
+            </div>
+            <!-- <div class="contacts-form">
+                <form action="">
+                    <label class="input-label" for="">Full Name</label>
+                    <input type="text" class="input-field" placeholder="Name Surname" required>
+
+                    <label class="input-label" for="">E-mail</label>
+                    <input class="input-field" type="email" placeholder="example@email.com" required>
+
+                    <label class="input-label" for="">Subject</label>
+                    <input type="text" class="input-field" placeholder="example subject" required>
+
+                    <label class="input-label" for="">Message <span>Optional (max 200 length)</span> </label>
+                    <textarea class="input-textarea" placeholder="Write here" maxlength="200"></textarea>
+
+                    <button class="button">Send</button>
+                </form>
+            </div> -->
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="copyright">Salvatore Luongo copyright &copy; 2025</div>
+        </div>
+    </footer>
+
+    <div id="backBtn" class="back-to-top"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
