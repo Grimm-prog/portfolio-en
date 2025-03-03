@@ -96,20 +96,20 @@ a:hover {
 }
 
 .button {
-    background-color: #7FE9AA;
-    color: #101329;
+    background-color: #101329;
+    color: #7FE9AA;
+    box-shadow: inset 0 0 0 2px #7FE9AA;
+    border: none;
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
     padding: 12px 24px;
-    border: none;
     border-radius: 36px;
 }
 
 .button:hover {
-    background-color: #101329;
-    color: #7FE9AA;
-    border: 1px solid #7FE9AA;
+    background-color: #7FE9AA;
+    color: #101329;
 }
 
 .green {
@@ -367,7 +367,7 @@ a:hover {
 }
 
 .copyright{
-    color: #ffffff;
+    color: #101329;
 }
 
 .anchors{
@@ -396,14 +396,14 @@ a:hover {
 .fab.fa-linkedin,
 .fab.fa-github {
     font-size: 36px; /* Dimensione dell'icona */
-    color: #7FE9AA;
+    color: #101329; 
+    -webkit-text-stroke: 1px #7FE9AA; 
     transition: color 0.3s ease;
 }
 
 .fab.fa-linkedin:hover,
 .fab.fa-github:hover {
-     color: #101329; 
-    -webkit-text-stroke: 1px #7FE9AA; 
+    color: #7FE9AA;
 }
 
 .socials-menu{
