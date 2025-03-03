@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #000000;
+    background-color: #060F16;
     color: #ffffff;
     font-family: "Poppins", serif;
     font-size: 100%;
@@ -84,7 +84,7 @@ a {
 }
 
 a:hover {
-    color: #4E7E65;
+    color: #7FE9AA;
 }
 
 @media screen and (max-width: 576px) {
@@ -96,8 +96,8 @@ a:hover {
 }
 
 .button {
-    background-color: #4E7E65;
-    color: #ffffff;
+    background-color: #7FE9AA;
+    color: #101329;
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
@@ -107,12 +107,14 @@ a:hover {
 }
 
 .button:hover {
-    background-color: #de6b48;
-    color: #ffffff;
+    background-color: #101329;
+    color: #7FE9AA;
+    border: 1px solid #7FE9AA;
 }
 
 .green {
-    color: #4E7E65;
+    /* color: #4E7E65; */
+    color: #7FE9AA;
 }
 
 .input-label {
@@ -130,8 +132,8 @@ a:hover {
 .input-textarea {
     font-family: "Poppins", serif;
     font-size: 18px;
-    color: #ffffff;
-    background-color: #4E7E65;
+    color: #101329;
+    background-color: #7FE9AA;
     padding: 12px 16px;
     width: 100%;
     border: none;
@@ -146,7 +148,7 @@ a:hover {
 }
 
 ::placeholder{
-    color: #ffffff;
+    color: #101329;
     opacity: 0.5;
     
 }
@@ -166,11 +168,11 @@ a:hover {
 /* Animazione typewriter */
 
 #typewriter {
-    color: #4E7E65;
+    color: #7FE9AA;
 }
 
 #cursor {
-    color: #4E7E65;
+    color: #7FE9AA;
     animation: blink 1s linear infinite;
 }
 
@@ -191,7 +193,7 @@ a:hover {
     left: 0;
     z-index: 5;
     width: 100%;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgb(6, 15, 22) 100%);
 }
 
 .header-container {
@@ -229,7 +231,7 @@ a:hover {
     width: 100%;
     position: relative;
     height: 100vh;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4) 31%), url('img/bg-image.png') no-repeat center center/cover;
+    background: linear-gradient(0deg, rgba(6, 15, 22, 1) 0%, rgba(6, 15, 22, 0.4) 31%), url('img/bg-image.png') no-repeat center center/cover;
 }
 
 #video-bg{
@@ -289,7 +291,7 @@ a:hover {
 
 .works-item-tags {
     font-size: 24px;
-    color: #de6b48;
+    color: #7FE9AA;
 }
 
 .work-info {
@@ -358,8 +360,8 @@ a:hover {
 }
 
 .footer{
-    background: linear-gradient(0deg, rgba(78, 126, 101, 1) 0%, rgba(0, 0, 0, 1) 100%);
-    background-color: #4E7E65;
+    background: linear-gradient(0deg, rgba(127, 233, 170, 1) 0%, rgba(6, 15, 22, 1) 100%);
+    background-color: #7FE9AA;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -379,7 +381,8 @@ a:hover {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    background-color: #4E7E65;
+    background-color: #101329;
+    border: 2px solid #7FE9AA;
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -393,13 +396,14 @@ a:hover {
 .fab.fa-linkedin,
 .fab.fa-github {
     font-size: 36px; /* Dimensione dell'icona */
-    color: #4E7E65;
+    color: #7FE9AA;
     transition: color 0.3s ease;
 }
 
 .fab.fa-linkedin:hover,
 .fab.fa-github:hover {
-    color: #de6b48;  /* Colore al passaggio del mouse */
+     color: #101329; 
+    -webkit-text-stroke: 1px #7FE9AA; 
 }
 
 .socials-menu{
