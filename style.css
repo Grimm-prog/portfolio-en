@@ -64,6 +64,7 @@ h3 {
 p {
     font-size: 24px;
     margin-bottom: 16px;
+    color: #999999;
 }
 
 @media screen and (max-width: 576px) {
