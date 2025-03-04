@@ -377,15 +377,15 @@ a:hover {
 }
 
 .back-to-top{
-    background-image: url('img/back-to-top.png') ;
+    background-image: url('img/back-to-top.png'); 
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #101329;
     border: 2px solid #7FE9AA;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     position: fixed;
     bottom: 30px;
     right: 30px;
