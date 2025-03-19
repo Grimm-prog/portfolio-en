@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #060F16;
+    background-color: #000000;
     color: #ffffff;
     font-family: "Poppins", serif;
     font-size: 100%;
@@ -97,7 +97,7 @@ a:hover {
 }
 
 .button {
-    background-color: #101329;
+    background-color: #000000;
     color: #7FE9AA;
     box-shadow: inset 0 0 0 2px #7FE9AA;
     border: none;
@@ -110,7 +110,7 @@ a:hover {
 
 .button:hover {
     background-color: #7FE9AA;
-    color: #101329;
+    color: #000000;
 }
 
 .green {
@@ -194,7 +194,7 @@ a:hover {
     left: 0;
     z-index: 5;
     width: 100%;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgb(6, 15, 22) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
 }
 
 .header-container {
@@ -203,12 +203,19 @@ a:hover {
     margin-top: 16px;
 }
 
-.logo {
+/* .logo {
     font-size: 32px;
     font-weight: 600;
     line-height: 42px;
     text-transform: uppercase;
     margin-right: 64px;
+} */
+.logo img {
+    width: auto; /* Adatta la larghezza proporzionalmente */
+    height: 42px; /* Stessa altezza della line-height del testo precedente */
+    vertical-align: middle; /* Allinea verticalmente con eventuale testo vicino */
+    margin-right: 64px;
+    margin-bottom: 10px;
 }
 
 .menu ul {
@@ -232,7 +239,7 @@ a:hover {
     width: 100%;
     position: relative;
     height: 100vh;
-    background: linear-gradient(0deg, rgba(6, 15, 22, 1) 0%, rgba(6, 15, 22, 0.4) 31%), url('img/bg-image.png') no-repeat center center/cover;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4) 31%), url('img/bg-image.png') no-repeat center center/cover;
 }
 
 #video-bg{
@@ -368,7 +375,7 @@ a:hover {
 }
 
 .copyright{
-    color: #101329;
+    color: #000000;
 }
 
 .anchors{
@@ -382,7 +389,7 @@ a:hover {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    background-color: #101329;
+    background-color: #000000;
     border: 2px solid #7FE9AA;
     border-radius: 50%;
     height: 40px;
@@ -397,7 +404,7 @@ a:hover {
 .fab.fa-linkedin,
 .fab.fa-github {
     font-size: 36px; /* Dimensione dell'icona */
-    color: #101329; 
+    color: #000000; 
     -webkit-text-stroke: 1px #7FE9AA; 
     transition: color 0.3s ease;
 }
