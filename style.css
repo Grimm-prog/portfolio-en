@@ -305,7 +305,6 @@ a:hover {
 .work-info {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 30px;
 }
 
 .work-info-label {
@@ -329,8 +328,22 @@ a:hover {
 }
 
 .images img{
-    margin-bottom: 36px;
+    margin-bottom: 100px;
     max-width: 100%;
+}
+
+ /* Stile per tablet */
+ @media (max-width: 768px) {
+    .responsive-img {
+        content: url('img/bento-tablet.png');
+    }
+}
+
+/* Stile per mobile */
+@media (max-width: 480px) {
+    .responsive-img {
+        content: url('img/bento-mobile.png');
+    }
 }
 
 .image-right{
@@ -375,7 +388,7 @@ a:hover {
 }
 
 .copyright{
-    color: #000000;
+    color: #ffffff;
 }
 
 .anchors{
