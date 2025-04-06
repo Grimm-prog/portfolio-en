@@ -64,7 +64,6 @@ h3 {
 p {
     font-size: 24px;
     margin-bottom: 16px;
-    color: #999999;
 }
 
 @media screen and (max-width: 576px) {
@@ -299,7 +298,6 @@ a:hover {
 
 .works-item-tags {
     font-size: 24px;
-    color: #7FE9AA;
 }
 
 .work-info {
@@ -308,6 +306,7 @@ a:hover {
 }
 
 .work-info-label {
+    color: #999999;
     width: 200px;
     flex-grow: 0;
     flex-shrink: 1;
@@ -454,4 +453,12 @@ a:hover {
         justify-content: center;
     }
     
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #7FE9AA 0%, #589F75 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
