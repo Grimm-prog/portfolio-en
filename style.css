@@ -29,7 +29,7 @@ h1 {
         font-size: 48px;
         line-height: 56px;
     }
-    
+
 }
 
 h2 {
@@ -44,7 +44,7 @@ h2 {
         font-size: 36px;
         line-height: 42px;
     }
-    
+
 }
 
 h3 {
@@ -58,7 +58,7 @@ h3 {
         font-size: 24px;
         line-height: 28px;
     }
-    
+
 }
 
 p {
@@ -71,7 +71,7 @@ p {
         font-size: 16px;
         line-height: 19px;
     }
-    
+
 }
 
 a {
@@ -92,7 +92,7 @@ a:hover {
         font-size: 16px;
         line-height: 19px;
     }
-    
+
 }
 
 .button {
@@ -123,7 +123,7 @@ a:hover {
     text-transform: uppercase;
 }
 
-.input-label span{
+.input-label span {
     font-size: 18px;
     font-weight: 400;
 }
@@ -140,17 +140,17 @@ a:hover {
     border-radius: 30px;
     margin-top: 8px;
     margin-bottom: 16px;
-    
+
 }
 
 .input-textarea {
     height: 100px;
 }
 
-::placeholder{
+::placeholder {
     color: #101329;
     opacity: 0.5;
-    
+
 }
 
 .container {
@@ -160,10 +160,6 @@ a:hover {
     max-width: 1140px;
 }
 
-/* section {
-    padding-top: 64px;
-    padding-bottom: 64px;
-} */
 
 /* Animazione typewriter */
 
@@ -200,13 +196,16 @@ a:hover {
 .header-container {
     display: flex;
     flex-wrap: wrap;
-    padding-top:10px
+    padding-top: 10px
 }
 
 .logo img {
-    width: auto; /* Adatta la larghezza proporzionalmente */
-    height: 42px; /* Stessa altezza della line-height del testo precedente */
-    vertical-align: middle; /* Allinea verticalmente con eventuale testo vicino */
+    width: auto;
+    /* Adatta la larghezza proporzionalmente */
+    height: 42px;
+    /* Stessa altezza della line-height del testo precedente */
+    vertical-align: middle;
+    /* Allinea verticalmente con eventuale testo vicino */
     padding-right: 45px;
     margin-bottom: 10px;
 }
@@ -235,11 +234,11 @@ a:hover {
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4) 31%), url('img/bg-image.png') no-repeat center center/cover;
 }
 
-#video-bg{
+#video-bg {
     position: absolute;
     top: 0;
     left: 0;
-    min-width:100%;
+    min-width: 100%;
     min-height: 100%;
     z-index: -1;
 }
@@ -258,9 +257,9 @@ a:hover {
 
 /* Works */
 
-.works-menu{
+.works-menu {
     position: sticky;
-    top:70px;
+    top: 70px;
     margin-bottom: 10px;
 }
 
@@ -273,9 +272,10 @@ a:hover {
         padding-top: 10px;
     }
 
-.logo img {
-    padding-right: 34px;
-    
+    .logo img {
+        padding-right: 34px;
+
+    }
 }
 
 .works-menu ul {
@@ -320,19 +320,19 @@ a:hover {
     width: 70%;
 }
 
-.images{
+.images {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.images img{
+.images img {
     margin-bottom: 100px;
     max-width: 100%;
 }
 
- /* Stile per tablet */
- @media (max-width: 768px) {
+/* Stile per tablet */
+@media (max-width: 768px) {
     .responsive-img {
         content: url('img/bento-tablet.png');
     }
@@ -345,11 +345,11 @@ a:hover {
     }
 }
 
-.image-right{
+.image-right {
     align-self: flex-end;
 }
 
-.image-left{
+.image-left {
     align-self: flex-start;
 }
 
@@ -373,31 +373,32 @@ a:hover {
         flex-direction: column;
         text-align: center;
     }
+
     .contacts-about,
-.contacts-form {
-    width: 100%;
-}
+    .contacts-form {
+        width: 100%;
+    }
 }
 
-.footer{
+.footer {
     background: linear-gradient(0deg, rgba(127, 233, 170, 1) 0%, rgba(0, 0, 0, 1) 100%);
     background-color: #7FE9AA;
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
-.copyright{
+.copyright {
     color: #ffffff;
 }
 
-.anchors{
+.anchors {
     visibility: hidden;
     position: relative;
     top: -120px;
 }
 
-.back-to-top{
-    background-image: url('img/back-to-top.png'); 
+.back-to-top {
+    background-image: url('img/back-to-top.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -415,9 +416,10 @@ a:hover {
 
 .fab.fa-linkedin,
 .fab.fa-github {
-    font-size: 36px; /* Dimensione dell'icona */
-    color: #000000; 
-    -webkit-text-stroke: 1px #7FE9AA; 
+    font-size: 36px;
+    /* Dimensione dell'icona */
+    color: #000000;
+    -webkit-text-stroke: 1px #7FE9AA;
     transition: color 0.3s ease;
 }
 
@@ -426,7 +428,7 @@ a:hover {
     color: #7FE9AA;
 }
 
-.socials-menu{
+.socials-menu {
     padding-bottom: 110px;
 }
 
@@ -445,14 +447,14 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-    .socials-menu{
+    .socials-menu {
         text-align: center;
     }
-    
+
     .socials-menu ul {
         justify-content: center;
     }
-    
+
 }
 
 .gradient-text {
