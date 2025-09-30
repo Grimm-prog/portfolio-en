@@ -207,7 +207,7 @@ a:hover {
     width: auto; /* Adatta la larghezza proporzionalmente */
     height: 42px; /* Stessa altezza della line-height del testo precedente */
     vertical-align: middle; /* Allinea verticalmente con eventuale testo vicino */
-    margin-right: 64px;
+    padding-right: 45px;
     margin-bottom: 10px;
 }
 
@@ -272,6 +272,9 @@ a:hover {
     .menu ul {
         padding-top: 10px;
     }
+
+.logo img {
+    padding-right: 34px;
     
 }
 
