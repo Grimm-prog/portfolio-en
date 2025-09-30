@@ -15,13 +15,13 @@ body {
 h1,
 h2,
 h3 {
-    margin-bottom: 48px;
+    margin-bottom: 40px;
 }
 
 h1 {
-    font-size: 96px;
+    font-size: 84px;     
     font-weight: 600;
-    line-height: 113px;
+    line-height: 100px;  
 }
 
 @media screen and (max-width: 576px) {
@@ -33,9 +33,9 @@ h1 {
 }
 
 h2 {
-    font-size: 64px;
+    font-size: 56px;    
     font-weight: 600;
-    line-height: 75px;
+    line-height: 66px;   
     text-transform: uppercase;
 }
 
@@ -48,9 +48,9 @@ h2 {
 }
 
 h3 {
-    font-size: 48px;
+    font-size: 42px;     
     font-weight: normal;
-    line-height: 56px;
+    line-height: 50px;   
 }
 
 @media screen and (max-width: 576px) {
@@ -62,8 +62,9 @@ h3 {
 }
 
 p {
-    font-size: 24px;
-    margin-bottom: 16px;
+    font-size: 20px;     
+    line-height: 32px;   
+    margin-bottom: 14px; 
 }
 
 @media screen and (max-width: 576px) {
@@ -113,7 +114,6 @@ a:hover {
 }
 
 .green {
-    /* color: #4E7E65; */
     color: #7FE9AA;
 }
 
