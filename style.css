@@ -194,21 +194,15 @@ a:hover {
     z-index: 5;
     width: 100%;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    backdrop-filter: blur(10px);
 }
 
 .header-container {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 16px;
+    padding-top:10px
 }
 
-/* .logo {
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 42px;
-    text-transform: uppercase;
-    margin-right: 64px;
-} */
 .logo img {
     width: auto; /* Adatta la larghezza proporzionalmente */
     height: 42px; /* Stessa altezza della line-height del testo precedente */
@@ -253,7 +247,6 @@ a:hover {
 .hero-content {
     height: 100%;
     display: flex;
-    /* proprietà per allineare i figli */
     flex-direction: column;
     justify-content: center;
 }
@@ -274,6 +267,10 @@ a:hover {
 @media screen and (max-width: 768px) {
     .works-menu {
         display: none;
+    }
+
+    .menu ul {
+        padding-top: 10px;
     }
     
 }
