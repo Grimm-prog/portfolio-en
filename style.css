@@ -415,7 +415,9 @@ a:hover {
 }
 
 .fab.fa-linkedin,
-.fab.fa-github {
+.fab.fa-github,
+.fab.fa-whatsapp,
+.fab.fa-telegram {
     font-size: 36px;
     /* Dimensione dell'icona */
     color: #000000;
@@ -424,7 +426,9 @@ a:hover {
 }
 
 .fab.fa-linkedin:hover,
-.fab.fa-github:hover {
+.fab.fa-github:hover,
+.fab.fa-whatsapp:hover,
+.fab.fa-telegram:hover {
     color: #7FE9AA;
 }
 
