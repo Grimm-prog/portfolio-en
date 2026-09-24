@@ -39,11 +39,14 @@ const writeLoop = async () => {
 writeLoop();
 
 const bckBtn = document.getElementById("backBtn");
+const logo = document.getElementById("logo");
 
-backBtn.addEventListener("click", () => {
+function scrollToTop() {
     window.scrollTo(0, 0);
 }
-);
+
+backBtn.addEventListener("click", scrollToTop);
+logo.addEventListener("click", scrollToTop);
 
 window.addEventListener("scroll", function () {
     let posY = window.scrollY;
